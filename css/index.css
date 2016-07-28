@@ -1,0 +1,178 @@
+/*  body */
+body{
+    background-color: #e0e0e0;
+}
+/*  end of body */
+
+
+
+/*  naviagtion bar */
+nav {
+    background-color: #2196f3;
+}
+#logo {
+    width: 65px;
+    height: 65px;
+}
+#nav-mobile {
+    font-size: 20px;
+    margin-right: 50px;
+}
+/*  end of naviagtion bar */
+
+
+
+/*  parallax / p image */
+#parallax1 {
+    height: 1000px;    
+}
+#heading {
+    margin-left: -500px;
+    margin-top: 300px;
+}
+.hidden {
+    color: white;
+    display: none;
+}
+/*  end of parallax / p image*/
+
+
+
+/*  section */
+#section1 {
+    background-color: #039be5;
+}
+#contactLink {
+    color: #0d47a1;
+}
+/*  end of section */
+
+
+
+/*  showcase */
+#more {
+    padding-bottom: 25px;
+}
+#showText {
+    color: #0d47a1;
+}
+#showcase {
+    margin-top: 25px;
+}
+#web {
+    margin-top: 35px;
+}
+#mobile {
+    margin-top: 35px;
+    border-color: white;
+    border-left: 1px solid;
+    border-right: 1px solid;
+}
+#graphic {
+    margin-top: 35px;
+}
+#icons {
+    color: white;
+    font-size: 60px;
+}
+#iconsA {
+    color: white;
+    float: left;
+    margin: auto;
+    font-size: 60px;
+}
+#iconsI {
+    color: white;
+    float: right;
+    margin: auto;
+    font-size: 60px;
+}
+#middle {
+    margin-top: 40px;
+}
+#gd {
+    margin-top: -8px;
+}
+/*  end showcase */
+
+
+
+/*  contact footer */
+#contactUs {
+    font-size: 20px;
+}
+#footer {
+    background-color: #2196f3;
+}
+/*  end of contact footer */
+
+
+
+/*  scroll to the top */
+.scrollTop {
+    top: 625px;
+    right: 2.5%;
+    width: 85px;
+    height: 85px;
+    position: fixed;
+    border-radius: 50px;
+    background-color: #0d47a1;
+}
+#scroll {
+    color: white;
+    font-size: 70px;
+    margin-top: 5px;
+    margin-left: 8px;
+}
+#goToTop {
+    width: 50px;
+    right: 25px;
+    height: 50px;
+    bottom: 50px;
+    color: white;
+    position: fixed;
+    margin: auto;
+    border-radius: 50%;
+    text-align: center;
+    background-color: #01579b;
+}
+#click {
+    margin-top: 5px;
+    font-size: 40px;
+}
+/*  end of scroll to the top */
+
+
+
+/*  ---------------- mobile ready --------------- */
+@media (max-device-width: 550px) {
+    #logo {
+        width: 60px;
+        height: 60px;
+    }
+    #parallax1 {
+        height: 400px;
+    }
+    #web {
+        width: 100%;
+        display: block;
+    }
+    #mobile {
+        width: 100%;
+        border-left: 0px;
+        border-right: 0px;
+        border-top: 1px solid;
+        border-bottom: 1px solid;
+        border-color: black;
+        display: block;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    #graphic {
+        width: 100%;
+        display: block;
+    }
+    #goToTop {
+        bottom: 40px;
+    }
+}
